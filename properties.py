@@ -1,0 +1,17 @@
+semi_specific_urls_domains = ['sankalpindia',
+                              'science',
+                              'geographynotes',
+                              'paris2024',
+                              'pib',
+                              'kids',
+                              'walnutfolks',
+                              'un',
+                              'brahmakumaris',
+                              'risingkashmir',
+                              'survivalinternational',
+                              'jagranjosh',
+                              'education',
+                              'indeed',
+                              'noaa',
+                              'linkedin'
+                              ]
