@@ -5,11 +5,18 @@ import pandas as pd
 import time
 import feedparser
 import json
+import logging
 from flask import jsonify
-from .rmq_utils import *
-from .properties import *
+from ..properties.properties import *
 
-rmq = RMQ("amqp://app:llmdev@103.93.20.138:5000/llm_dev?heartbeat=3600")
+
+root_dir = os.getcwd()
+log_dir = os.path.join(root_dir, 'logs')
+os.makedirs(log_dir, exist_ok=True)
+log_file = os.path.join(log_dir, 'utils.log')
+logging.basicConfig(filename=log_file, level=logging.INFO,
+                    format='Line %(lineno)d - %(asctime)s - %(levelname)s - %(message)s ')
+
 GENERAL_QUEUE = QueueCollection.GENERAL_QUEUE.value
 SPECIFIC_QUEUE = QueueCollection.SPECIFIC_QUEUE.value
 SEMI_SPECIFIC_QUEUE = QueueCollection.SEMI_SPECIFIC_QUEUE.value
@@ -23,9 +30,10 @@ def check_file_type(file_name: str):
         elif file_extension.lower() == '.json':
             return 'json'
         else:
-            print("file format is not supported")
+            logging.error("file format is not supported")
             return jsonify({"file format is not supported"})
     except Exception as e:
+        logging.error("ERROR: while checking file type", str(e))
         return jsonify({"ERROR: while checking file type": str(e)})
 
 
@@ -40,13 +48,14 @@ def extract_domain(url):
         else:
             return domain_url[0]
     except Exception as e:
+        logging.error("ERROR: while extracting domain", str(e))
         return jsonify({"ERROR: while extracting domain": str(e)})
 
 
 def check_link_type(url: str):
     try:
         domain = extract_domain(url)
-        if domain == 'wikipedia':
+        if domain in SPECIFIC_DOMAINS:
             return 'specific'
         elif domain in SEMI_SPECIFIC_DOMAIN_NAMES:
             return 'semi_specific'
@@ -54,6 +63,7 @@ def check_link_type(url: str):
             return 'general'
 
     except Exception as e:
+        logging.error("ERROR: while checking link type", str(e))
         return jsonify({"ERROR: while checking link type": str(e)})
 
 
@@ -82,10 +92,16 @@ def extract_urls_from_rss_feed(rss_feed_url: str, no_of_url_to_fetch: int = None
 
         return urls
     except Exception as e:
+        logging.error("ERROR: while extracting url from rss", str(e))
         return jsonify({"ERROR: while extracting url from rss": str(e)})
 
 
 def read_csv(file_name: str):
+    """
+    the function will read csv file and extract all the links from the file
+    :param file_name: csv file
+    :return: list of urls
+    """
     try:
         if not isinstance(file_name, str):
             file_name = str(file_name)
@@ -97,8 +113,10 @@ def read_csv(file_name: str):
             if row['type'] == 'rss':
                 no_posts = None
                 date_published = None
+
                 try:
-                    no_posts, date_published = row['params']
+                    no_posts = row['no_posts']
+                    date_published = row['date_published']
                     if not isinstance(no_posts, int):
                         no_posts = int(no_posts)
                     if not isinstance(date_published, str):
@@ -113,6 +131,7 @@ def read_csv(file_name: str):
 
         return all_links
     except Exception as e:
+        logging.error("ERROR: while reading csv_file ", str(e))
         return jsonify({"ERROR: while reading csv_file ": str(e)})
 
 
@@ -120,7 +139,6 @@ def read_json(file_name: str):
     try:
         if not isinstance(file_name, str):
             file_name = str(file_name)
-
         with open(file_name, 'r') as file:
             data = json.load(file)
         all_links = []
@@ -130,8 +148,12 @@ def read_json(file_name: str):
                 no_posts = None
                 date_published = None
                 try:
-                    no_posts = item['params'][0]
-                    date_published = item['params'][1]
+                    no_posts = item['params']['no_posts']
+                    date_published = item['params']['date_published']
+                    if not isinstance(no_posts, int):
+                        no_posts = int(no_posts)
+                    if not isinstance(date_published, str):
+                        date_published = str(date_published)
                 except:
                     pass
 
@@ -143,10 +165,11 @@ def read_json(file_name: str):
         return all_links
 
     except Exception as e:
+        logging.error("error while reading json", str(e))
         return jsonify({"ERROR: while reading json file": str(e)})
 
 
-def queue_dump(link_list):
+def queue_dump(rmq, link_list: list):
     try:
         for link in link_list:
             link_type = check_link_type(link)
@@ -158,4 +181,5 @@ def queue_dump(link_list):
                 rmq.send_one_to_queue(GENERAL_QUEUE, link)
 
     except Exception as e:
-        return jsonify("ERROR: while dumping url to queue", str(e))
+        logging.error("ERROR: while dumping url to queue", str(e))
+        return jsonify({"ERROR: while dumping url to queue": str(e)})

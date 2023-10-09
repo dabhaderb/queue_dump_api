@@ -1,0 +1,285 @@
+2023-10-06 10:25:38,972 - INFO -  * Detected change in 'C:\\Users\\dell\\Thoughtclan\\pycharm\\llm_dev\\api_app\\app\\properties.py', reloading - Line 96
+2023-10-06 10:25:39,120 - INFO -  * Restarting with stat - Line 96
+2023-10-06 10:25:41,777 - WARNING -  * Debugger is active! - Line 96
+2023-10-06 10:25:41,797 - INFO -  * Debugger PIN: 672-758-015 - Line 96
+2023-10-06 10:30:54,805 - INFO - Pika version 1.3.2 connecting to ('103.93.20.138', 5000) - Line 179
+2023-10-06 10:30:54,850 - INFO - Socket connected: <socket.socket fd=1728, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.1.2', 54219), raddr=('103.93.20.138', 5000)> - Line 345
+2023-10-06 10:30:54,850 - INFO - Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000217EADB88E0>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000217EADB88E0> params=<URLParameters host=103.93.20.138 port=5000 virtual_host=llm_dev ssl=False>>). - Line 428
+2023-10-06 10:30:54,957 - INFO - AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000217EADB88E0> params=<URLParameters host=103.93.20.138 port=5000 virtual_host=llm_dev ssl=False>> - Line 293
+2023-10-06 10:30:54,957 - INFO - AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000217EADB88E0> params=<URLParameters host=103.93.20.138 port=5000 virtual_host=llm_dev ssl=False>> - Line 725
+2023-10-06 10:30:54,957 - INFO - Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000217EADB88E0> params=<URLParameters host=103.93.20.138 port=5000 virtual_host=llm_dev ssl=False>> - Line 453
+2023-10-06 10:30:54,957 - INFO - Created channel=1 - Line 1264
+2023-10-06 10:30:54,995 - INFO - successfully connected to RMQ - Line 25
+2023-10-06 10:30:55,007 - INFO - file saved to path app\uploads\url_json.json - Line 38
+2023-10-06 10:30:55,010 - INFO - found total no of files in the upload folder ['url_json.json'] - Line 41
+2023-10-06 10:30:55,010 - INFO - url_json.json reading from folder - Line 45
+2023-10-06 10:30:55,010 - INFO - json found reading file - Line 47
+2023-10-06 10:30:55,012 - INFO - web links extracted from url_json.json - Line 53
+2023-10-06 10:30:55,012 - INFO - web links dumped to queue - Line 58
+2023-10-06 10:30:55,012 - INFO - url_json.json removed from folder - Line 60
+2023-10-06 10:30:55,014 - INFO - 127.0.0.1 - - [06/Oct/2023 10:30:55] "POST /rmq_dump HTTP/1.1" 200 - - Line 96
+2023-10-06 10:32:54,322 - INFO -  * Detected change in 'C:\\Users\\dell\\Thoughtclan\\pycharm\\llm_dev\\api_app\\app\\routes.py', reloading - Line 96
+2023-10-06 10:32:54,516 - INFO -  * Restarting with stat - Line 96
+2023-10-06 10:32:56,680 - WARNING -  * Debugger is active! - Line 96
+2023-10-06 10:32:56,684 - INFO -  * Debugger PIN: 672-758-015 - Line 96
+2023-10-06 10:33:07,748 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000 - Line 96
+2023-10-06 10:33:07,748 - INFO - [33mPress CTRL+C to quit[0m - Line 96
+2023-10-06 10:33:07,754 - INFO -  * Restarting with stat - Line 96
+2023-10-06 10:33:10,027 - WARNING -  * Debugger is active! - Line 96
+2023-10-06 10:33:10,035 - INFO -  * Debugger PIN: 672-758-015 - Line 96
+2023-10-06 10:33:18,486 - INFO - Pika version 1.3.2 connecting to ('103.93.20.138', 5000) - Line 179
+2023-10-06 10:33:18,524 - INFO - Socket connected: <socket.socket fd=1792, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.1.2', 54320), raddr=('103.93.20.138', 5000)> - Line 345
+2023-10-06 10:33:18,529 - INFO - Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000010866A3C460>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000010866A3C460> params=<URLParameters host=103.93.20.138 port=5000 virtual_host=llm_dev ssl=False>>). - Line 428
+2023-10-06 10:33:18,640 - INFO - AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000010866A3C460> params=<URLParameters host=103.93.20.138 port=5000 virtual_host=llm_dev ssl=False>> - Line 293
+2023-10-06 10:33:18,640 - INFO - AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000010866A3C460> params=<URLParameters host=103.93.20.138 port=5000 virtual_host=llm_dev ssl=False>> - Line 725
+2023-10-06 10:33:18,644 - INFO - Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000010866A3C460> params=<URLParameters host=103.93.20.138 port=5000 virtual_host=llm_dev ssl=False>> - Line 453
+2023-10-06 10:33:18,644 - INFO - Created channel=1 - Line 1264
+2023-10-06 10:33:18,676 - INFO - successfully connected to RMQ - Line 25
+2023-10-06 10:33:18,689 - INFO - file saved to path app\uploads\url_json.json - Line 38
+2023-10-06 10:33:18,689 - INFO - found total no of files in the upload folder ['url_json.json'] - Line 41
+2023-10-06 10:33:18,689 - INFO - url_json.json reading from folder - Line 45
+2023-10-06 10:33:18,689 - INFO - json found reading file - Line 47
+2023-10-06 10:33:18,692 - INFO - web links extracted from url_json.json - Line 53
+2023-10-06 10:33:18,694 - INFO - web links dumped to queue - Line 60
+2023-10-06 10:33:18,694 - INFO - url_json.json removed from folder - Line 62
+2023-10-06 10:33:18,694 - INFO - 127.0.0.1 - - [06/Oct/2023 10:33:18] "POST /rmq_dump HTTP/1.1" 200 - - Line 96
+2023-10-06 10:34:03,896 - INFO -  * Detected change in 'C:\\Users\\dell\\Thoughtclan\\pycharm\\llm_dev\\api_app\\app\\utils.py', reloading - Line 96
+2023-10-06 10:34:04,064 - INFO -  * Restarting with stat - Line 96
+2023-10-06 10:34:07,436 - WARNING -  * Debugger is active! - Line 96
+2023-10-06 10:34:07,454 - INFO -  * Debugger PIN: 672-758-015 - Line 96
+2023-10-06 10:34:07,684 - INFO - Pika version 1.3.2 connecting to ('103.93.20.138', 5000) - Line 179
+2023-10-06 10:34:07,714 - INFO - Socket connected: <socket.socket fd=1756, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.1.2', 54349), raddr=('103.93.20.138', 5000)> - Line 345
+2023-10-06 10:34:07,714 - INFO - Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001BF50948190>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001BF50948190> params=<URLParameters host=103.93.20.138 port=5000 virtual_host=llm_dev ssl=False>>). - Line 428
+2023-10-06 10:34:07,826 - INFO - AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001BF50948190> params=<URLParameters host=103.93.20.138 port=5000 virtual_host=llm_dev ssl=False>> - Line 293
+2023-10-06 10:34:07,826 - INFO - AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001BF50948190> params=<URLParameters host=103.93.20.138 port=5000 virtual_host=llm_dev ssl=False>> - Line 725
+2023-10-06 10:34:07,826 - INFO - Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001BF50948190> params=<URLParameters host=103.93.20.138 port=5000 virtual_host=llm_dev ssl=False>> - Line 453
+2023-10-06 10:34:07,826 - INFO - Created channel=1 - Line 1264
+2023-10-06 10:34:07,864 - INFO - successfully connected to RMQ - Line 25
+2023-10-06 10:34:07,871 - INFO - file saved to path app\uploads\url_json.json - Line 38
+2023-10-06 10:34:07,871 - INFO - found total no of files in the upload folder ['url_json.json'] - Line 41
+2023-10-06 10:34:07,871 - INFO - url_json.json reading from folder - Line 45
+2023-10-06 10:34:07,871 - INFO - json found reading file - Line 47
+2023-10-06 10:34:07,872 - INFO - web links extracted from url_json.json - Line 53
+2023-10-06 10:34:07,873 - INFO - web links dumped to queue - Line 60
+2023-10-06 10:34:07,874 - INFO - url_json.json removed from folder - Line 62
+2023-10-06 10:34:07,874 - INFO - 127.0.0.1 - - [06/Oct/2023 10:34:07] "POST /rmq_dump HTTP/1.1" 200 - - Line 96
+2023-10-06 10:34:10,076 - INFO -  * Detected change in 'C:\\Users\\dell\\Thoughtclan\\pycharm\\llm_dev\\api_app\\app\\utils.py', reloading - Line 96
+2023-10-06 10:34:10,224 - INFO -  * Restarting with stat - Line 96
+2023-10-06 10:34:12,524 - WARNING -  * Debugger is active! - Line 96
+2023-10-06 10:34:12,536 - INFO -  * Debugger PIN: 672-758-015 - Line 96
+2023-10-06 10:35:01,910 - INFO -  * Detected change in 'C:\\Users\\dell\\Thoughtclan\\pycharm\\llm_dev\\api_app\\app\\routes.py', reloading - Line 96
+2023-10-06 10:35:02,059 - INFO -  * Restarting with stat - Line 96
+2023-10-06 10:35:04,804 - WARNING -  * Debugger is active! - Line 96
+2023-10-06 10:35:04,820 - INFO -  * Debugger PIN: 672-758-015 - Line 96
+2023-10-06 10:35:05,057 - INFO - Pika version 1.3.2 connecting to ('103.93.20.138', 5000) - Line 179
+2023-10-06 10:35:05,094 - INFO - Socket connected: <socket.socket fd=1848, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.1.2', 54376), raddr=('103.93.20.138', 5000)> - Line 345
+2023-10-06 10:35:05,094 - INFO - Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001493FD78130>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001493FD78130> params=<URLParameters host=103.93.20.138 port=5000 virtual_host=llm_dev ssl=False>>). - Line 428
+2023-10-06 10:35:05,274 - INFO - AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001493FD78130> params=<URLParameters host=103.93.20.138 port=5000 virtual_host=llm_dev ssl=False>> - Line 293
+2023-10-06 10:35:05,274 - INFO - AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001493FD78130> params=<URLParameters host=103.93.20.138 port=5000 virtual_host=llm_dev ssl=False>> - Line 725
+2023-10-06 10:35:05,274 - INFO - Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001493FD78130> params=<URLParameters host=103.93.20.138 port=5000 virtual_host=llm_dev ssl=False>> - Line 453
+2023-10-06 10:35:05,274 - INFO - Created channel=1 - Line 1264
+2023-10-06 10:35:05,324 - INFO - successfully connected to RMQ - Line 25
+2023-10-06 10:35:05,326 - INFO - file saved to path app\uploads\url_json.json - Line 38
+2023-10-06 10:35:05,326 - INFO - found total no of files in the upload folder ['url_json.json'] - Line 41
+2023-10-06 10:35:05,334 - INFO - url_json.json reading from folder - Line 45
+2023-10-06 10:35:05,334 - INFO - json found reading file - Line 47
+2023-10-06 10:35:05,334 - INFO - web links extracted from url_json.json - Line 53
+2023-10-06 10:35:05,334 - INFO - web links dumped to queue - Line 60
+2023-10-06 10:35:05,334 - INFO - url_json.json removed from folder - Line 62
+2023-10-06 10:35:05,340 - INFO - 127.0.0.1 - - [06/Oct/2023 10:35:05] "POST /rmq_dump HTTP/1.1" 200 - - Line 96
+2023-10-06 10:37:09,679 - INFO -  * Detected change in 'C:\\Users\\dell\\Thoughtclan\\pycharm\\llm_dev\\api_app\\app\\utils.py', reloading - Line 96
+2023-10-06 10:37:09,811 - INFO -  * Restarting with stat - Line 96
+2023-10-06 10:37:11,582 - WARNING -  * Debugger is active! - Line 96
+2023-10-06 10:37:11,590 - INFO -  * Debugger PIN: 672-758-015 - Line 96
+2023-10-06 10:37:15,964 - INFO - Pika version 1.3.2 connecting to ('103.93.20.138', 5000) - Line 179
+2023-10-06 10:37:16,009 - INFO - Socket connected: <socket.socket fd=1836, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.1.2', 54466), raddr=('103.93.20.138', 5000)> - Line 345
+2023-10-06 10:37:16,009 - INFO - Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000231B57B4040>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000231B57B4040> params=<URLParameters host=103.93.20.138 port=5000 virtual_host=llm_dev ssl=False>>). - Line 428
+2023-10-06 10:37:16,139 - INFO - AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000231B57B4040> params=<URLParameters host=103.93.20.138 port=5000 virtual_host=llm_dev ssl=False>> - Line 293
+2023-10-06 10:37:16,139 - INFO - AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000231B57B4040> params=<URLParameters host=103.93.20.138 port=5000 virtual_host=llm_dev ssl=False>> - Line 725
+2023-10-06 10:37:16,139 - INFO - Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000231B57B4040> params=<URLParameters host=103.93.20.138 port=5000 virtual_host=llm_dev ssl=False>> - Line 453
+2023-10-06 10:37:16,146 - INFO - Created channel=1 - Line 1264
+2023-10-06 10:37:16,188 - INFO - successfully connected to RMQ - Line 25
+2023-10-06 10:37:16,188 - INFO - file saved to path app\uploads\url_json.json - Line 38
+2023-10-06 10:37:16,197 - INFO - found total no of files in the upload folder ['url_json.json'] - Line 41
+2023-10-06 10:37:16,197 - INFO - url_json.json reading from folder - Line 45
+2023-10-06 10:37:16,197 - INFO - json found reading file - Line 47
+2023-10-06 10:37:16,197 - INFO - web links extracted from url_json.json - Line 53
+2023-10-06 10:37:16,197 - INFO - web links dumped to queue - Line 60
+2023-10-06 10:37:16,204 - INFO - url_json.json removed from folder - Line 62
+2023-10-06 10:37:16,204 - INFO - 127.0.0.1 - - [06/Oct/2023 10:37:16] "POST /rmq_dump HTTP/1.1" 200 - - Line 96
+2023-10-06 10:38:02,190 - INFO -  * Detected change in 'C:\\Users\\dell\\Thoughtclan\\pycharm\\llm_dev\\api_app\\app\\utils.py', reloading - Line 96
+2023-10-06 10:38:02,299 - INFO -  * Restarting with stat - Line 96
+2023-10-06 10:38:04,517 - WARNING -  * Debugger is active! - Line 96
+2023-10-06 10:38:04,517 - INFO -  * Debugger PIN: 672-758-015 - Line 96
+2023-10-06 10:38:22,446 - INFO -  * Detected change in 'C:\\Users\\dell\\Thoughtclan\\pycharm\\llm_dev\\api_app\\app\\utils.py', reloading - Line 96
+2023-10-06 10:38:22,559 - INFO -  * Restarting with stat - Line 96
+2023-10-06 10:38:24,484 - WARNING -  * Debugger is active! - Line 96
+2023-10-06 10:38:24,489 - INFO -  * Debugger PIN: 672-758-015 - Line 96
+2023-10-06 10:38:40,184 - INFO - Pika version 1.3.2 connecting to ('103.93.20.138', 5000) - Line 179
+2023-10-06 10:38:40,216 - INFO - Socket connected: <socket.socket fd=1864, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.1.2', 54502), raddr=('103.93.20.138', 5000)> - Line 345
+2023-10-06 10:38:40,216 - INFO - Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001B9EF09C040>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001B9EF09C040> params=<URLParameters host=103.93.20.138 port=5000 virtual_host=llm_dev ssl=False>>). - Line 428
+2023-10-06 10:38:40,340 - INFO - AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001B9EF09C040> params=<URLParameters host=103.93.20.138 port=5000 virtual_host=llm_dev ssl=False>> - Line 293
+2023-10-06 10:38:40,340 - INFO - AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001B9EF09C040> params=<URLParameters host=103.93.20.138 port=5000 virtual_host=llm_dev ssl=False>> - Line 725
+2023-10-06 10:38:40,340 - INFO - Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001B9EF09C040> params=<URLParameters host=103.93.20.138 port=5000 virtual_host=llm_dev ssl=False>> - Line 453
+2023-10-06 10:38:40,340 - INFO - Created channel=1 - Line 1264
+2023-10-06 10:38:40,372 - INFO - successfully connected to RMQ - Line 25
+2023-10-06 10:38:40,372 - INFO - file saved to path app\uploads\url_json.json - Line 38
+2023-10-06 10:38:40,372 - INFO - found total no of files in the upload folder ['url_json.json'] - Line 41
+2023-10-06 10:38:40,372 - INFO - url_json.json reading from folder - Line 45
+2023-10-06 10:38:40,372 - INFO - json found reading file - Line 47
+2023-10-06 10:38:40,388 - INFO - web links extracted from url_json.json - Line 53
+2023-10-06 10:38:40,388 - INFO - web links dumped to queue - Line 60
+2023-10-06 10:38:40,388 - INFO - url_json.json removed from folder - Line 62
+2023-10-06 10:38:40,388 - INFO - 127.0.0.1 - - [06/Oct/2023 10:38:40] "POST /rmq_dump HTTP/1.1" 200 - - Line 96
+2023-10-06 10:43:48,810 - INFO -  * Detected change in 'C:\\Users\\dell\\Thoughtclan\\pycharm\\llm_dev\\api_app\\app\\utils.py', reloading - Line 96
+2023-10-06 10:43:48,925 - INFO -  * Restarting with stat - Line 96
+2023-10-06 10:43:50,905 - WARNING -  * Debugger is active! - Line 96
+2023-10-06 10:43:50,909 - INFO -  * Debugger PIN: 672-758-015 - Line 96
+2023-10-06 10:43:53,157 - INFO - Pika version 1.3.2 connecting to ('103.93.20.138', 5000) - Line 179
+2023-10-06 10:43:53,188 - INFO - Socket connected: <socket.socket fd=1612, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.1.2', 54610), raddr=('103.93.20.138', 5000)> - Line 345
+2023-10-06 10:43:53,188 - INFO - Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000027952C0C040>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000027952C0C040> params=<URLParameters host=103.93.20.138 port=5000 virtual_host=llm_dev ssl=False>>). - Line 428
+2023-10-06 10:43:53,298 - INFO - AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000027952C0C040> params=<URLParameters host=103.93.20.138 port=5000 virtual_host=llm_dev ssl=False>> - Line 293
+2023-10-06 10:43:53,298 - INFO - AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000027952C0C040> params=<URLParameters host=103.93.20.138 port=5000 virtual_host=llm_dev ssl=False>> - Line 725
+2023-10-06 10:43:53,298 - INFO - Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000027952C0C040> params=<URLParameters host=103.93.20.138 port=5000 virtual_host=llm_dev ssl=False>> - Line 453
+2023-10-06 10:43:53,298 - INFO - Created channel=1 - Line 1264
+2023-10-06 10:43:53,345 - INFO - successfully connected to RMQ - Line 25
+2023-10-06 10:43:53,345 - INFO - file saved to path app\uploads\url_json.json - Line 38
+2023-10-06 10:43:53,345 - INFO - found total no of files in the upload folder ['url_json.json'] - Line 41
+2023-10-06 10:43:53,345 - INFO - url_json.json reading from folder - Line 45
+2023-10-06 10:43:53,345 - INFO - json found reading file - Line 47
+2023-10-06 10:43:53,345 - INFO - web links extracted from url_json.json - Line 53
+2023-10-06 10:43:53,345 - INFO - web links dumped to queue - Line 60
+2023-10-06 10:43:53,360 - INFO - url_json.json removed from folder - Line 62
+2023-10-06 10:43:53,361 - INFO - 127.0.0.1 - - [06/Oct/2023 10:43:53] "POST /rmq_dump HTTP/1.1" 200 - - Line 96
+2023-10-06 10:44:25,844 - INFO -  * Detected change in 'C:\\Users\\dell\\Thoughtclan\\pycharm\\llm_dev\\api_app\\app\\utils.py', reloading - Line 96
+2023-10-06 10:44:25,981 - INFO -  * Restarting with stat - Line 96
+2023-10-06 10:44:28,260 - WARNING -  * Debugger is active! - Line 96
+2023-10-06 10:44:28,308 - INFO -  * Debugger PIN: 672-758-015 - Line 96
+2023-10-06 10:44:30,678 - INFO - Pika version 1.3.2 connecting to ('103.93.20.138', 5000) - Line 179
+2023-10-06 10:44:30,727 - INFO - Socket connected: <socket.socket fd=1840, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.1.2', 54621), raddr=('103.93.20.138', 5000)> - Line 345
+2023-10-06 10:44:30,727 - INFO - Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000019DA3B2C250>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000019DA3B2C250> params=<URLParameters host=103.93.20.138 port=5000 virtual_host=llm_dev ssl=False>>). - Line 428
+2023-10-06 10:44:30,878 - INFO - AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000019DA3B2C250> params=<URLParameters host=103.93.20.138 port=5000 virtual_host=llm_dev ssl=False>> - Line 293
+2023-10-06 10:44:30,878 - INFO - AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000019DA3B2C250> params=<URLParameters host=103.93.20.138 port=5000 virtual_host=llm_dev ssl=False>> - Line 725
+2023-10-06 10:44:30,878 - INFO - Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000019DA3B2C250> params=<URLParameters host=103.93.20.138 port=5000 virtual_host=llm_dev ssl=False>> - Line 453
+2023-10-06 10:44:30,878 - INFO - Created channel=1 - Line 1264
+2023-10-06 10:44:30,928 - INFO - successfully connected to RMQ - Line 25
+2023-10-06 10:44:30,928 - INFO - file saved to path app\uploads\url_json.json - Line 38
+2023-10-06 10:44:30,928 - INFO - found total no of files in the upload folder ['url_json.json'] - Line 41
+2023-10-06 10:44:30,938 - INFO - url_json.json reading from folder - Line 45
+2023-10-06 10:44:30,938 - INFO - json found reading file - Line 47
+2023-10-06 10:44:30,938 - INFO - web links extracted from url_json.json - Line 53
+2023-10-06 10:44:30,941 - INFO - web links dumped to queue - Line 60
+2023-10-06 10:44:30,941 - INFO - url_json.json removed from folder - Line 62
+2023-10-06 10:44:30,941 - INFO - 127.0.0.1 - - [06/Oct/2023 10:44:30] "POST /rmq_dump HTTP/1.1" 200 - - Line 96
+2023-10-06 10:45:54,816 - INFO -  * Detected change in 'C:\\Users\\dell\\Thoughtclan\\pycharm\\llm_dev\\api_app\\app\\routes.py', reloading - Line 96
+2023-10-06 10:45:54,962 - INFO -  * Restarting with stat - Line 96
+2023-10-06 10:45:56,802 - WARNING -  * Debugger is active! - Line 96
+2023-10-06 10:45:56,817 - INFO -  * Debugger PIN: 672-758-015 - Line 96
+2023-10-06 10:45:56,942 - INFO - Pika version 1.3.2 connecting to ('103.93.20.138', 5000) - Line 179
+2023-10-06 10:45:56,974 - INFO - Socket connected: <socket.socket fd=1824, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.1.2', 54648), raddr=('103.93.20.138', 5000)> - Line 345
+2023-10-06 10:45:56,974 - INFO - Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001DAA85C8130>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001DAA85C8130> params=<URLParameters host=103.93.20.138 port=5000 virtual_host=llm_dev ssl=False>>). - Line 428
+2023-10-06 10:45:57,083 - INFO - AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001DAA85C8130> params=<URLParameters host=103.93.20.138 port=5000 virtual_host=llm_dev ssl=False>> - Line 293
+2023-10-06 10:45:57,083 - INFO - AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001DAA85C8130> params=<URLParameters host=103.93.20.138 port=5000 virtual_host=llm_dev ssl=False>> - Line 725
+2023-10-06 10:45:57,083 - INFO - Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001DAA85C8130> params=<URLParameters host=103.93.20.138 port=5000 virtual_host=llm_dev ssl=False>> - Line 453
+2023-10-06 10:45:57,083 - INFO - Created channel=1 - Line 1264
+2023-10-06 10:45:57,130 - INFO - successfully connected to RMQ - Line 25
+2023-10-06 10:45:57,130 - INFO - file saved to path app\uploads\url_json.json - Line 38
+2023-10-06 10:45:57,130 - INFO - found total no of files in the upload folder ['url_json.json'] - Line 41
+2023-10-06 10:45:57,130 - INFO - app\uploads\url_json.json reading from folder - Line 45
+2023-10-06 10:45:57,130 - INFO - json found reading file - Line 47
+2023-10-06 10:45:58,201 - INFO - web links extracted from app\uploads\url_json.json - Line 53
+2023-10-06 10:45:58,202 - INFO - dumped link to specific_urls - Line 169
+2023-10-06 10:45:58,202 - INFO - dumped link to specific_urls - Line 169
+2023-10-06 10:45:58,202 - INFO - dumped link to specific_urls - Line 169
+2023-10-06 10:45:58,202 - INFO - dumped link to specific_urls - Line 169
+2023-10-06 10:45:58,202 - INFO - dumped link to specific_urls - Line 169
+2023-10-06 10:45:58,215 - INFO - dumped link to general_urls - Line 175
+2023-10-06 10:45:58,217 - INFO - dumped link to general_urls - Line 175
+2023-10-06 10:45:58,221 - INFO - dumped link to general_urls - Line 175
+2023-10-06 10:45:58,223 - INFO - dumped link to semi_specific_urls - Line 172
+2023-10-06 10:45:58,225 - INFO - dumped link to semi_specific_urls - Line 172
+2023-10-06 10:45:58,225 - INFO - dumped link to semi_specific_urls - Line 172
+2023-10-06 10:45:58,228 - INFO - dumped link to semi_specific_urls - Line 172
+2023-10-06 10:45:58,229 - INFO - dumped link to general_urls - Line 175
+2023-10-06 10:45:58,231 - INFO - dumped link to general_urls - Line 175
+2023-10-06 10:45:58,234 - INFO - dumped link to semi_specific_urls - Line 172
+2023-10-06 10:45:58,236 - INFO - dumped link to general_urls - Line 175
+2023-10-06 10:45:58,239 - INFO - dumped link to general_urls - Line 175
+2023-10-06 10:45:58,239 - INFO - dumped link to general_urls - Line 175
+2023-10-06 10:45:58,239 - INFO - dumped link to general_urls - Line 175
+2023-10-06 10:45:58,239 - INFO - dumped link to general_urls - Line 175
+2023-10-06 10:45:58,239 - INFO - dumped link to general_urls - Line 175
+2023-10-06 10:45:58,248 - INFO - dumped link to general_urls - Line 175
+2023-10-06 10:45:58,250 - INFO - dumped link to general_urls - Line 175
+2023-10-06 10:45:58,252 - INFO - dumped link to general_urls - Line 175
+2023-10-06 10:45:58,252 - INFO - dumped link to general_urls - Line 175
+2023-10-06 10:45:58,252 - INFO - dumped link to general_urls - Line 175
+2023-10-06 10:45:58,252 - INFO - dumped link to general_urls - Line 175
+2023-10-06 10:45:58,252 - INFO - dumped link to general_urls - Line 175
+2023-10-06 10:45:58,263 - INFO - dumped link to general_urls - Line 175
+2023-10-06 10:45:58,263 - INFO - dumped link to general_urls - Line 175
+2023-10-06 10:45:58,263 - INFO - web links dumped to queue - Line 60
+2023-10-06 10:45:58,263 - ERROR - ERROR in main function [WinError 3] The system cannot find the path specified: 'app\\uploads\\app\\uploads\\url_json.json' - Line 66
+2023-10-06 10:45:58,263 - INFO - 127.0.0.1 - - [06/Oct/2023 10:45:58] "[31m[1mPOST /rmq_dump HTTP/1.1[0m" 400 - - Line 96
+2023-10-06 10:46:47,811 - INFO -  * Detected change in 'C:\\Users\\dell\\Thoughtclan\\pycharm\\llm_dev\\api_app\\app\\routes.py', reloading - Line 96
+2023-10-06 10:46:48,042 - INFO -  * Restarting with stat - Line 96
+2023-10-06 10:46:50,606 - WARNING -  * Debugger is active! - Line 96
+2023-10-06 10:46:50,609 - INFO -  * Debugger PIN: 672-758-015 - Line 96
+2023-10-06 10:51:14,337 - INFO -  * Detected change in 'C:\\Users\\dell\\Thoughtclan\\pycharm\\llm_dev\\api_app\\app\\utils.py', reloading - Line 96
+2023-10-06 10:51:14,494 - INFO -  * Restarting with stat - Line 96
+2023-10-06 10:51:16,753 - WARNING -  * Debugger is active! - Line 96
+2023-10-06 10:51:16,768 - INFO -  * Debugger PIN: 672-758-015 - Line 96
+2023-10-06 10:52:08,498 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000 - Line 96
+2023-10-06 10:52:08,498 - INFO - [33mPress CTRL+C to quit[0m - Line 96
+2023-10-06 10:52:08,498 - INFO -  * Restarting with stat - Line 96
+2023-10-06 10:52:10,163 - WARNING -  * Debugger is active! - Line 96
+2023-10-06 10:52:10,178 - INFO -  * Debugger PIN: 672-758-015 - Line 96
+2023-10-06 10:53:35,992 - INFO -  * Detected change in 'C:\\Users\\dell\\Thoughtclan\\pycharm\\llm_dev\\api_app\\app\\utils.py', reloading - Line 96
+2023-10-06 10:53:36,181 - INFO -  * Restarting with stat - Line 96
+2023-10-06 10:53:38,092 - WARNING -  * Debugger is active! - Line 96
+2023-10-06 10:53:38,092 - INFO -  * Debugger PIN: 672-758-015 - Line 96
+2023-10-06 10:56:48,159 - INFO -  * Detected change in 'C:\\Users\\dell\\Thoughtclan\\pycharm\\llm_dev\\api_app\\app\\routes.py', reloading - Line 96
+2023-10-06 10:56:48,363 - INFO -  * Restarting with stat - Line 96
+2023-10-06 10:56:49,472 - WARNING -  * Debugger is active! - Line 96
+2023-10-06 10:56:49,488 - INFO -  * Debugger PIN: 672-758-015 - Line 96
+2023-10-06 11:03:46,554 - INFO -  * Detected change in 'C:\\Users\\dell\\Thoughtclan\\pycharm\\llm_dev\\api_app\\app\\src\\app\\routes.py', reloading - Line 96
+2023-10-06 11:03:46,649 - INFO -  * Restarting with stat - Line 96
+Line 96 - 2023-10-06 15:28:50,837 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000 
+Line 96 - 2023-10-06 15:28:50,837 - INFO - [33mPress CTRL+C to quit[0m 
+Line 96 - 2023-10-06 15:28:50,837 - INFO -  * Restarting with stat 
+Line 96 - 2023-10-06 15:28:51,653 - WARNING -  * Debugger is active! 
+Line 96 - 2023-10-06 15:28:51,653 - INFO -  * Debugger PIN: 672-758-015 
+Line 96 - 2023-10-06 15:29:35,153 - INFO - 127.0.0.1 - - [06/Oct/2023 15:29:35] "[33mPOST /add_links HTTP/1.1[0m" 404 - 
+Line 179 - 2023-10-06 15:30:02,733 - INFO - Pika version 1.3.2 connecting to ('103.93.20.138', 5000) 
+Line 345 - 2023-10-06 15:30:02,760 - INFO - Socket connected: <socket.socket fd=1776, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.1.2', 65349), raddr=('103.93.20.138', 5000)> 
+Line 428 - 2023-10-06 15:30:02,760 - INFO - Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000002AE8AD9DA80>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000002AE8AD9DA80> params=<URLParameters host=103.93.20.138 port=5000 virtual_host=llm_dev ssl=False>>). 
+Line 293 - 2023-10-06 15:30:03,131 - INFO - AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000002AE8AD9DA80> params=<URLParameters host=103.93.20.138 port=5000 virtual_host=llm_dev ssl=False>> 
+Line 725 - 2023-10-06 15:30:03,131 - INFO - AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000002AE8AD9DA80> params=<URLParameters host=103.93.20.138 port=5000 virtual_host=llm_dev ssl=False>> 
+Line 453 - 2023-10-06 15:30:03,132 - INFO - Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000002AE8AD9DA80> params=<URLParameters host=103.93.20.138 port=5000 virtual_host=llm_dev ssl=False>> 
+Line 1264 - 2023-10-06 15:30:03,132 - INFO - Created channel=1 
+Line 25 - 2023-10-06 15:30:03,172 - INFO - successfully connected to RMQ 
+Line 72 - 2023-10-06 15:30:03,173 - ERROR - ERROR in main function [Errno 2] No such file or directory: 'app\\uploads\\url_json.json' 
+Line 96 - 2023-10-06 15:30:03,174 - INFO - 127.0.0.1 - - [06/Oct/2023 15:30:03] "[31m[1mPOST /add_urls HTTP/1.1[0m" 400 - 
+Line 96 - 2023-10-06 15:30:38,296 - INFO -  * Detected change in 'C:\\Users\\dell\\Thoughtclan\\pycharm\\llm_dev\\api_app\\app\\src\\properties\\properties.py', reloading 
+Line 96 - 2023-10-06 15:30:38,375 - INFO -  * Restarting with stat 
+Line 96 - 2023-10-06 15:30:39,285 - WARNING -  * Debugger is active! 
+Line 96 - 2023-10-06 15:30:39,285 - INFO -  * Debugger PIN: 672-758-015 
+Line 179 - 2023-10-06 15:30:45,372 - INFO - Pika version 1.3.2 connecting to ('103.93.20.138', 5000) 
+Line 345 - 2023-10-06 15:30:45,411 - INFO - Socket connected: <socket.socket fd=1632, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.1.2', 65375), raddr=('103.93.20.138', 5000)> 
+Line 428 - 2023-10-06 15:30:45,412 - INFO - Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000279A5BC8DF0>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000279A5BC8DF0> params=<URLParameters host=103.93.20.138 port=5000 virtual_host=llm_dev ssl=False>>). 
+Line 293 - 2023-10-06 15:30:45,541 - INFO - AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000279A5BC8DF0> params=<URLParameters host=103.93.20.138 port=5000 virtual_host=llm_dev ssl=False>> 
+Line 725 - 2023-10-06 15:30:45,542 - INFO - AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000279A5BC8DF0> params=<URLParameters host=103.93.20.138 port=5000 virtual_host=llm_dev ssl=False>> 
+Line 453 - 2023-10-06 15:30:45,543 - INFO - Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000279A5BC8DF0> params=<URLParameters host=103.93.20.138 port=5000 virtual_host=llm_dev ssl=False>> 
+Line 1264 - 2023-10-06 15:30:45,544 - INFO - Created channel=1 
+Line 25 - 2023-10-06 15:30:45,581 - INFO - successfully connected to RMQ 
+Line 40 - 2023-10-06 15:30:45,583 - INFO - file saved to path app\src\uploads\url_json.json 
+Line 43 - 2023-10-06 15:30:45,583 - INFO - found total no of files in the upload folder ['url_json.json'] 
+Line 47 - 2023-10-06 15:30:45,583 - INFO - app\src\uploads\url_json.json reading from folder 
+Line 49 - 2023-10-06 15:30:45,583 - INFO - json found reading file 
+Line 57 - 2023-10-06 15:30:46,152 - INFO - web links extracted from app\src\uploads\url_json.json 
+Line 65 - 2023-10-06 15:30:46,174 - INFO - web links dumped to queue 
+Line 68 - 2023-10-06 15:30:46,174 - INFO - app\src\uploads\url_json.json removed from folder 
+Line 96 - 2023-10-06 15:30:46,174 - INFO - 127.0.0.1 - - [06/Oct/2023 15:30:46] "POST /add_urls HTTP/1.1" 200 - 
